@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>DGOS Sales OS Preview</title>
+<style>
+:root{--blue:#0d2f6f;--blue2:#153f8f;--gold:#e2b540;--cream:#f6f3ea;--ink:#172033;--muted:#6d7585;--card:#fff;--line:#e6e9ef;--green:#1f9d65;--amber:#e39b22;--red:#d34c4c}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Arial,sans-serif;background:#eef2f8;color:var(--ink)}
+.shell{display:grid;grid-template-columns:240px 1fr;min-height:100vh}.side{background:linear-gradient(180deg,var(--blue),#081d47);color:white;padding:26px 18px}.brand{display:flex;align-items:center;gap:12px;margin-bottom:30px}.mark{width:44px;height:44px;border-radius:14px;background:var(--gold);display:grid;place-items:center;color:var(--blue);font-weight:900}.brand b{font-size:18px}.brand small{display:block;color:#b7c4df;margin-top:2px}.nav a{display:flex;gap:10px;align-items:center;padding:12px 14px;border-radius:12px;color:#dfe7f7;text-decoration:none;margin:6px 0}.nav a.active,.nav a:hover{background:rgba(255,255,255,.12);color:white}.sidefoot{margin-top:30px;padding:14px;background:rgba(255,255,255,.08);border-radius:14px;font-size:12px;color:#d9e1f1}
+.main{padding:28px}.top{display:flex;justify-content:space-between;align-items:center;gap:18px}.title h1{margin:0;font-size:28px}.title p{margin:6px 0 0;color:var(--muted)}.user{background:white;border:1px solid var(--line);border-radius:14px;padding:10px 14px;display:flex;gap:10px;align-items:center}.avatar{width:38px;height:38px;border-radius:50%;background:var(--blue);color:white;display:grid;place-items:center;font-weight:700}
+.banner{margin-top:22px;background:linear-gradient(135deg,var(--blue2),var(--blue));color:white;border-radius:22px;padding:24px;display:flex;justify-content:space-between;align-items:center;box-shadow:0 12px 30px rgba(13,47,111,.18)}.banner h2{margin:0 0 8px}.banner p{margin:0;color:#dce6f7}.cta{background:var(--gold);color:#14213d;border:0;border-radius:12px;padding:12px 18px;font-weight:800}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin-top:18px}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;box-shadow:0 8px 24px rgba(20,40,80,.05)}.kpi{display:flex;justify-content:space-between;align-items:flex-start}.kpi .num{font-size:26px;font-weight:800;margin-top:8px}.label{color:var(--muted);font-size:13px}.pill{font-size:11px;font-weight:700;border-radius:999px;padding:6px 8px;background:#edf4ff;color:var(--blue)}
+.grid{display:grid;grid-template-columns:1.4fr .8fr;gap:18px;margin-top:18px}.section h3{margin:0 0 14px}.toolbar{display:flex;justify-content:space-between;gap:12px;margin-bottom:14px}.search{border:1px solid var(--line);border-radius:12px;padding:10px 12px;width:240px}.btn{border:0;border-radius:11px;padding:10px 14px;font-weight:700;background:var(--blue);color:white}.table{width:100%;border-collapse:collapse;font-size:13px}.table th{text-align:left;color:var(--muted);font-weight:700;padding:10px;border-bottom:1px solid var(--line)}.table td{padding:13px 10px;border-bottom:1px solid #f0f2f6}.stage{padding:5px 8px;border-radius:999px;font-size:11px;font-weight:700}.hot{background:#fff0e8;color:#c45825}.warm{background:#fff8df;color:#a06d00}.pay{background:#e7f7ef;color:#15704a}.over{color:var(--red);font-weight:700}
+.funnel{display:grid;gap:10px}.step{display:flex;justify-content:space-between;padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:#fbfcfe}.step strong{color:var(--blue)}.coach{margin-top:16px;background:linear-gradient(135deg,#fff9e8,#fff);border:1px solid #f0dfaa}.coach b{color:#8b6510}.rank{display:grid;gap:10px}.rankrow{display:grid;grid-template-columns:34px 1fr auto;align-items:center;gap:10px;padding:10px;border-radius:12px;background:#f8fafc}.ranknum{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:var(--gold);color:var(--blue);font-weight:900}.muted{color:var(--muted);font-size:12px}
+@media(max-width:1000px){.shell{grid-template-columns:1fr}.side{display:none}.cards{grid-template-columns:repeat(2,1fr)}.grid{grid-template-columns:1fr}}@media(max-width:620px){.main{padding:16px}.cards{grid-template-columns:1fr}.top,.banner{align-items:flex-start;flex-direction:column}.grid{gap:14px}.search{width:100%}.toolbar{flex-direction:column}}
+</style>
+</head>
+<body>
+<div class="shell">
+<aside class="side">
+  <div class="brand"><div class="mark">DG</div><div><b>Discover Group</b><small>Travel Operating System</small></div></div>
+  <nav class="nav">
+    <a class="active" href="#">⌂ Team Dashboard</a>
+    <a href="#">＋ Add Client</a>
+    <a href="#">◎ My Leads</a>
+    <a href="#">▤ Digital Travel Folders</a>
+    <a href="#">★ Daily Scorecard</a>
+    <a href="#">₱ Earnings</a>
+  </nav>
+  <div class="sidefoot">One client. One folder. One source of truth.</div>
+</aside>
+<main class="main">
+  <div class="top"><div class="title"><h1>Good morning, Mex.</h1><p>Here is what needs attention today.</p></div><div class="user"><div class="avatar">MD</div><div><b>Mex Domingo</b><div class="muted">Executive Workspace</div></div></div></div>
+  <section class="banner"><div><h2>12 clients are close to booking</h2><p>Focus on payment-pending and overdue follow-ups first.</p></div><button class="cta">Open Priority List</button></section>
+  <section class="cards">
+    <div class="card kpi"><div><div class="label">Net Sales Collection</div><div class="num">₱8.43M</div><div class="muted">Today</div></div><span class="pill">+18%</span></div>
+    <div class="card kpi"><div><div class="label">Pax Closed</div><div class="num">52</div><div class="muted">Team total</div></div><span class="pill">On pace</span></div>
+    <div class="card kpi"><div><div class="label">Follow-ups Due</div><div class="num">18</div><div class="muted">7 overdue</div></div><span class="pill" style="background:#fff0f0;color:#ad3131">Action</span></div>
+    <div class="card kpi"><div><div class="label">Waiting for Payment</div><div class="num">9</div><div class="muted">₱2.8M potential</div></div><span class="pill" style="background:#e8f7ef;color:#15704a">Hot</span></div>
+  </section>
+  <section class="grid">
+    <div class="card section">
+      <div class="toolbar"><div><h3>Priority Clients</h3><div class="muted">Clients most likely to move forward today</div></div><div><input class="search" placeholder="Search client"/> <button class="btn">+ New Client</button></div></div>
+      <table class="table"><thead><tr><th>Client</th><th>Agent</th><th>Stage</th><th>Next action</th><th>Value</th></tr></thead><tbody>
+        <tr><td><b>Juan Dela Cruz</b><div class="muted">Route G Deluxe · 4 pax</div></td><td>Genesis Quilang</td><td><span class="stage pay">Payment Pending</span></td><td>Call before 3:00 PM</td><td>₱620,000</td></tr>
+        <tr><td><b>Maria Santos</b><div class="muted">Route A Preferred · 2 pax</div></td><td>Princess Aila</td><td><span class="stage hot">Decision Stage</span></td><td>Send visa timeline</td><td>₱310,000</td></tr>
+        <tr><td><b>Carlo Reyes</b><div class="muted">Japan Spring · 6 pax</div></td><td>Leslie Castillo</td><td><span class="stage warm">Strategic Nurturing</span></td><td class="over">Overdue follow-up</td><td>₱780,000</td></tr>
+        <tr><td><b>Angela Lim</b><div class="muted">Europe Deluxe · 3 pax</div></td><td>Ai-Sel</td><td><span class="stage pay">Waiting Deposit</span></td><td>Confirm payment option</td><td>₱465,000</td></tr>
+      </tbody></table>
+    </div>
+    <div>
+      <div class="card section"><h3>Sales Journey</h3><div class="funnel">
+        <div class="step"><span>New Inquiry</span><strong>24</strong></div><div class="step"><span>Discovery Complete</span><strong>18</strong></div><div class="step"><span>Solution Presented</span><strong>14</strong></div><div class="step"><span>Decision in Progress</span><strong>12</strong></div><div class="step"><span>Payment Processing</span><strong>9</strong></div><div class="step"><span>Successfully Booked</span><strong>7</strong></div>
+      </div></div>
+      <div class="card section coach"><h3>Daily Coaching Focus</h3><p><b>Strategic follow-through</b></p><p class="muted">Every follow-up must add value, address the previous concern, and end with a clear next action.</p></div>
+    </div>
+  </section>
+  <section class="grid">
+    <div class="card section"><h3>Daily Ranking</h3><div class="rank">
+      <div class="rankrow"><div class="ranknum">1</div><div><b>Genesis Anthonette Quilang</b><div class="muted">18 pax closed</div></div><b>₱2.74M</b></div>
+      <div class="rankrow"><div class="ranknum">2</div><div><b>Princess Aila Macamay</b><div class="muted">14 pax closed</div></div><b>₱2.10M</b></div>
+      <div class="rankrow"><div class="ranknum">3</div><div><b>Leslie Castillo</b><div class="muted">11 pax closed</div></div><b>₱1.65M</b></div>
+    </div></div>
+    <div class="card section"><h3>Performance Snapshot</h3><div class="funnel"><div class="step"><span>Lead response SLA</span><strong>94%</strong></div><div class="step"><span>Follow-up compliance</span><strong>88%</strong></div><div class="step"><span>Average scorecard</span><strong>91%</strong></div><div class="step"><span>Projected monthly collection</span><strong>₱31.8M</strong></div></div></div>
+  </section>
+</main>
+</div>
+</body>
+</html>
